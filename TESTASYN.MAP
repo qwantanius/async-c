@@ -1,0 +1,116 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 017E5H 017E6H _TEXT              CODE
+ 017F0H 019E3H 001F4H _DATA              DATA
+ 019E4H 019E7H 00004H _EMUSEG            DATA
+ 019E8H 019E9H 00002H _CRTSEG            DATA
+ 019EAH 019EBH 00002H _CVTSEG            DATA
+ 019ECH 019F1H 00006H _SCNSEG            DATA
+ 019F2H 01A3BH 0004AH _BSS               BSS
+ 01A3CH 01A3CH 00000H _BSSEND            BSSEND
+ 01A40H 01ABFH 00080H _STACK             STACK
+
+  Address         Publics by Value
+
+ 0000:0000  Abs  __turboCrt
+ 0000:0000  Abs  __cvtfak
+ 0000:0115       __exit
+ 0000:0171       __restorezero
+ 0000:018D       _abort
+ 0000:01A3       DGROUP@
+ 0000:01A5       _main
+ 0000:0272       _AsyncInterrupt
+ 0000:0367       _SetInterrupt
+ 0000:03DD       _Set_8259
+ 0000:0419       _SetSpeed
+ 0000:0466       _SetFormat
+ 0000:0490       _SetModem
+ 0000:04A7       _SetEnable
+ 0000:04BC       _ComOpen
+ 0000:0572       _ComClose
+ 0000:05B0       _ComStat
+ 0000:05C2       _ComInReady
+ 0000:05E1       _ComIn
+ 0000:061A       _ComOut
+ 0000:0681       _atexit
+ 0000:06A5       _bioskey
+ 0000:06B9       ___brk
+ 0000:06D9       ___sbrk
+ 0000:070B       _brk
+ 0000:0717       _sbrk
+ 0000:0727       __CPUTN
+ 0000:0868       _cprintf
+ 0000:087E       _cputs
+ 0000:08CB       __VideoInt
+ 0000:08DA       __c0crtinit
+ 0000:08F7       __crtinit
+ 0000:09C0       _exit
+ 0000:09EF       _free
+ 0000:0A95       _getvect
+ 0000:0AA5       _setvect
+ 0000:0AB6       _gettext
+ 0000:0B06       _puttext
+ 0000:0B3F       __LONGTOA
+ 0000:0BBC       _itoa
+ 0000:0BE3       _ultoa
+ 0000:0BFD       _ltoa
+ 0000:0C22       _malloc
+ 0000:0CBE       _movetext
+ 0000:0D5E       _outport
+ 0000:0D6A       _outportb
+ 0000:0D76       _putch
+ 0000:0D89       __REALCVT
+ 0000:0D8D       SCOPY@
+ 0000:0DDB       __SCROLL
+ 0000:1079       __SCREENIO
+ 0000:10B4       __VALIDATEXY
+ 0000:1102       __setargv
+ 0000:11ED       __setenvp
+ 0000:1237       _strlen
+ 0000:127D       __VPRINTER
+ 0000:171E       __VPTR
+ 0000:1741       __VRAM
+ 0000:17B9       __wherexy
+ 0000:17C3       _wherex
+ 0000:17D2       _wherey
+ 017F:0074       _ZeroDivVector
+ 017F:0078       __argc
+ 017F:007A       __argv
+ 017F:007C       _environ
+ 017F:007E       __envLng
+ 017F:0080       __envseg
+ 017F:0082       __envSize
+ 017F:0084       __psp
+ 017F:0086       __version
+ 017F:0086       __osmajor
+ 017F:0087       __osminor
+ 017F:0088       _errno
+ 017F:008A       __8087
+ 017F:008C       ___heapbase
+ 017F:008E       ___brklvl
+ 017F:0090       ___heaptop
+ 017F:0092       __heapbase
+ 017F:0096       __brklvl
+ 017F:009A       __heaptop
+ 017F:00D2       _ComInt
+ 017F:00D6       _ComLineInit
+ 017F:00D9       _ComBaudDiv
+ 017F:00ED       _MskVal_8259
+ 017F:00F1       _ComBase
+ 017F:00FA       __atexitcnt
+ 017F:00FC       __video
+ 017F:010B       _directvideo
+ 017F:016C       __exitbuf
+ 017F:016E       __exitfopen
+ 017F:0170       __exitopen
+ 017F:0172       __heaplen
+ 017F:0178       ___Allocp
+ 017F:017A       __stklen
+ 017F:01FA       __RealCvtVector
+ 017F:01FC       __ScanTodVector
+ 017F:0202       _ComPtr
+ 017F:020A       __atexittbl
+
+Program entry point at 0000:0000
+
